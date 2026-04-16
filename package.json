@@ -1,0 +1,29 @@
+{
+  "name": "quickbite",
+  "version": "1.0.0",
+  "description": "Campus Food Ordering Platform - QuickBite",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "build": "cd frontend && npm install && npm run build",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "keywords": [
+    "campus",
+    "food",
+    "ordering",
+    "quickbite"
+  ],
+  "author": "Komal Pawar",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
