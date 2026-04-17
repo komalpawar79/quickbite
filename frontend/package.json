@@ -23,11 +23,9 @@
     "zustand": "^4.3.9"
   },
   "devDependencies": {
-    "ajv-keywords": "^5.1.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "react-scripts": "5.0.1",
-    "schema-utils": "^4.2.0",
     "workbox-webpack-plugin": "^7.4.0"
   },
   "scripts": {
