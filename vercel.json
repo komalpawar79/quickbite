@@ -3,7 +3,6 @@
   "outputDirectory": "frontend/build",
   "installCommand": "cd frontend && npm install --legacy-peer-deps",
   "public": true,
-  "nodejs": "18.x",
   "env": {
     "NODE_ENV": "production",
     "NODE_OPTIONS": "--max_old_space_size=4096"
