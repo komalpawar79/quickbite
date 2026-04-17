@@ -5,13 +5,13 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
-    "build": "cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm install --legacy-peer-deps && npm run build",
     "start-backend": "cd backend && npm start",
     "start-frontend": "cd frontend && npm start",
-    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "devDependencies": {
     "concurrently": "^8.2.1"
   },
   "keywords": [
